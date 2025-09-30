@@ -1,0 +1,32 @@
+.searchContainer {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  color: #393e46;
+
+  border: 1px solid #ddd;
+  border-radius: 25px;
+
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* افکت فوکوس */
+.input:focus {
+  border-color: #29db89;
+  box-shadow: 0 4px 8px rgba(41, 219, 137, 0.2);
+}
+
+/* Placeholder قشنگ‌تر */
+.input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
